@@ -1,0 +1,45 @@
+{
+  "gradient_boosting": {
+    "r2": 0.5285,
+    "rmse": 888.4,
+    "mae": 692.34
+  },
+  "random_forest": {
+    "r2": 0.548,
+    "rmse": 869.86,
+    "mae": 681.55
+  },
+  "feature_importance": {
+    "Pesticide_Use_kg_ha": 34.29,
+    "Soil_Organic_Matter": 11.05,
+    "Nitrogen_kg_ha": 10.37,
+    "Temperature_C": 10.23,
+    "Rainfall_mm": 7.98,
+    "Potassium_kg_ha": 7.22,
+    "Soil_pH": 6.31,
+    "Irrigation_hours": 6.3,
+    "Phosphorus_kg_ha": 6.24
+  },
+  "features": [
+    "Rainfall_mm",
+    "Temperature_C",
+    "Soil_pH",
+    "Nitrogen_kg_ha",
+    "Phosphorus_kg_ha",
+    "Potassium_kg_ha",
+    "Pesticide_Use_kg_ha",
+    "Irrigation_hours",
+    "Soil_Organic_Matter"
+  ],
+  "correlations": {
+    "Rainfall_mm": 0.1794,
+    "Temperature_C": 0.2425,
+    "Soil_pH": 0.1654,
+    "Nitrogen_kg_ha": 0.2037,
+    "Phosphorus_kg_ha": 0.107,
+    "Potassium_kg_ha": 0.1255,
+    "Pesticide_Use_kg_ha": 0.5683,
+    "Irrigation_hours": 0.1375,
+    "Soil_Organic_Matter": 0.2711
+  }
+}
